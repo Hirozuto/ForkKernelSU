@@ -16,6 +16,7 @@ jobs:
       matrix:
         include:
           - target: aarch64-linux-android
+          - target: arm-linux-androideabi
           - target: x86_64-linux-android
     uses: ./.github/workflows/ksud.yml
     with:
