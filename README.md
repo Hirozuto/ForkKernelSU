@@ -39,3 +39,4 @@ And the current supported ABIs are : `arm64-v8a` and `x86_64`
 - [genuine](https://github.com/brevent/genuine/): apk v2 signature validation.
 - [Diamorphine](https://github.com/m0nad/Diamorphine): some rootkit skills.
 - [Magisk](https://github.com/topjohnwu/Magisk): the sepolicy implementation.
+
