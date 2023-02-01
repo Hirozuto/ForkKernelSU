@@ -6,6 +6,10 @@ on:
       - '.github/workflows/build-manager.yml'
       - 'manager/**'
       - 'userspace/ksud/**'
+pull_request:
+    branches: [ "main" ]
+    paths: 
+      - 'manager/**'
 jobs:
   build-ksud:
       uses: ./.github/workflows/build-ksud.yml
